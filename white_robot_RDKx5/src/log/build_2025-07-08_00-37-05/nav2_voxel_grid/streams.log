@@ -1,0 +1,93 @@
+[0.058s] Invoking command in '/home/wheeltec/XiouGai-src/src/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/wheeltec/XiouGai-src/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wheeltec/XiouGai-src/src/install/nav2_common:/home/wheeltec/rtabmap_ws/install/rtabmap_ros:/home/wheeltec/rtabmap_ws/install/rtabmap_launch:/home/wheeltec/rtabmap_ws/install/rtabmap_examples:/home/wheeltec/rtabmap_ws/install/rtabmap_demos:/home/wheeltec/rtabmap_ws/install/rtabmap_viz:/home/wheeltec/rtabmap_ws/install/rtabmap_slam:/home/wheeltec/rtabmap_ws/install/rtabmap_odom:/home/wheeltec/rtabmap_ws/install/rtabmap_util:/home/wheeltec/rtabmap_ws/install/rtabmap_sync:/home/wheeltec/rtabmap_ws/install/rtabmap_rviz_plugins:/home/wheeltec/rtabmap_ws/install/rtabmap_conversions:/home/wheeltec/rtabmap_ws/install/rtabmap_python:/opt/ros/humble:/home/wheeltec/rtabmap_ws/install/rtabmap_msgs:/home/wheeltec/rtabmap_ws/install/rtabmap PYTHONPATH=/home/wheeltec/XiouGai-src/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/wheeltec/XiouGai-src/src/navigation2-humble/nav2_voxel_grid -DCMAKE_INSTALL_PREFIX=/home/wheeltec/XiouGai-src/src/install/nav2_voxel_grid
+[0.226s] -- The C compiler identification is GNU 11.4.0
+[0.362s] -- The CXX compiler identification is GNU 11.4.0
+[0.385s] -- Detecting C compiler ABI info
+[0.950s] -- Detecting C compiler ABI info - done
+[0.969s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.969s] -- Detecting C compile features
+[0.970s] -- Detecting C compile features - done
+[0.980s] -- Detecting CXX compiler ABI info
+[1.610s] -- Detecting CXX compiler ABI info - done
+[1.628s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.636s] -- Detecting CXX compile features
+[1.636s] -- Detecting CXX compile features - done
+[1.663s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.200s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.939s] -- Found nav2_common: 1.1.6 (/home/wheeltec/XiouGai-src/src/install/nav2_common/share/nav2_common/cmake)
+[3.021s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[3.726s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.829s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.905s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.047s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.198s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.848s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.880s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.906s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.053s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.339s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.631s] -- Looking for pthread.h
+[7.195s] -- Looking for pthread.h - found
+[7.199s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.674s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.686s] -- Found Threads: TRUE  
+[8.800s] -- Setting build type to Release as none was specified.
+[8.836s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.415s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[9.479s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.479s] -- Configured cppcheck include dirs: /home/wheeltec/XiouGai-src/src/navigation2-humble/nav2_voxel_grid/include
+[9.479s] -- Configured cppcheck exclude dirs and/or files: 
+[9.493s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[9.495s] -- Configured cpplint exclude dirs and/or files: 
+[9.512s] -- Added test 'lint_cmake' to check CMake code style
+[9.534s] -- Added test 'uncrustify' to check C / C++ code style
+[9.534s] -- Configured uncrustify additional arguments: 
+[9.545s] -- Added test 'xmllint' to check XML markup files
+[9.573s] -- Configuring done
+[9.726s] -- Generating done
+[9.752s] -- Build files have been written to: /home/wheeltec/XiouGai-src/src/build/nav2_voxel_grid
+[9.807s] Invoked command in '/home/wheeltec/XiouGai-src/src/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/wheeltec/XiouGai-src/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wheeltec/XiouGai-src/src/install/nav2_common:/home/wheeltec/rtabmap_ws/install/rtabmap_ros:/home/wheeltec/rtabmap_ws/install/rtabmap_launch:/home/wheeltec/rtabmap_ws/install/rtabmap_examples:/home/wheeltec/rtabmap_ws/install/rtabmap_demos:/home/wheeltec/rtabmap_ws/install/rtabmap_viz:/home/wheeltec/rtabmap_ws/install/rtabmap_slam:/home/wheeltec/rtabmap_ws/install/rtabmap_odom:/home/wheeltec/rtabmap_ws/install/rtabmap_util:/home/wheeltec/rtabmap_ws/install/rtabmap_sync:/home/wheeltec/rtabmap_ws/install/rtabmap_rviz_plugins:/home/wheeltec/rtabmap_ws/install/rtabmap_conversions:/home/wheeltec/rtabmap_ws/install/rtabmap_python:/opt/ros/humble:/home/wheeltec/rtabmap_ws/install/rtabmap_msgs:/home/wheeltec/rtabmap_ws/install/rtabmap PYTHONPATH=/home/wheeltec/XiouGai-src/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/wheeltec/XiouGai-src/src/navigation2-humble/nav2_voxel_grid -DCMAKE_INSTALL_PREFIX=/home/wheeltec/XiouGai-src/src/install/nav2_voxel_grid
+[9.825s] Invoking command in '/home/wheeltec/XiouGai-src/src/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/wheeltec/XiouGai-src/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wheeltec/XiouGai-src/src/install/nav2_common:/home/wheeltec/rtabmap_ws/install/rtabmap_ros:/home/wheeltec/rtabmap_ws/install/rtabmap_launch:/home/wheeltec/rtabmap_ws/install/rtabmap_examples:/home/wheeltec/rtabmap_ws/install/rtabmap_demos:/home/wheeltec/rtabmap_ws/install/rtabmap_viz:/home/wheeltec/rtabmap_ws/install/rtabmap_slam:/home/wheeltec/rtabmap_ws/install/rtabmap_odom:/home/wheeltec/rtabmap_ws/install/rtabmap_util:/home/wheeltec/rtabmap_ws/install/rtabmap_sync:/home/wheeltec/rtabmap_ws/install/rtabmap_rviz_plugins:/home/wheeltec/rtabmap_ws/install/rtabmap_conversions:/home/wheeltec/rtabmap_ws/install/rtabmap_python:/opt/ros/humble:/home/wheeltec/rtabmap_ws/install/rtabmap_msgs:/home/wheeltec/rtabmap_ws/install/rtabmap PYTHONPATH=/home/wheeltec/XiouGai-src/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wheeltec/XiouGai-src/src/build/nav2_voxel_grid -- -j4 -l4
+[10.189s] [ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[10.287s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[10.308s] [ 30%] [32mBuilding CXX object CMakeFiles/voxel_grid.dir/src/voxel_grid.cpp.o[0m
+[14.816s] [ 40%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[15.085s] [ 40%] Built target gtest_main
+[24.968s] [ 50%] [32m[1mLinking CXX shared library libvoxel_grid.so[0m
+[25.385s] [ 50%] Built target voxel_grid
+[29.003s] [ 60%] [32m[1mLinking CXX static library libgtest.a[0m
+[29.213s] [ 60%] Built target gtest
+[29.317s] [ 70%] [32mBuilding CXX object test/CMakeFiles/voxel_grid_tests.dir/voxel_grid_tests.cpp.o[0m
+[34.700s] [ 80%] [32m[1mLinking CXX executable voxel_grid_tests[0m
+[35.036s] [ 80%] Built target voxel_grid_tests
+[35.112s] [ 90%] [32mBuilding CXX object test/CMakeFiles/voxel_grid_bresenham_3d.dir/voxel_grid_bresenham_3d.cpp.o[0m
+[40.234s] [100%] [32m[1mLinking CXX executable voxel_grid_bresenham_3d[0m
+[40.536s] [100%] Built target voxel_grid_bresenham_3d
+[40.566s] Invoked command in '/home/wheeltec/XiouGai-src/src/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/wheeltec/XiouGai-src/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wheeltec/XiouGai-src/src/install/nav2_common:/home/wheeltec/rtabmap_ws/install/rtabmap_ros:/home/wheeltec/rtabmap_ws/install/rtabmap_launch:/home/wheeltec/rtabmap_ws/install/rtabmap_examples:/home/wheeltec/rtabmap_ws/install/rtabmap_demos:/home/wheeltec/rtabmap_ws/install/rtabmap_viz:/home/wheeltec/rtabmap_ws/install/rtabmap_slam:/home/wheeltec/rtabmap_ws/install/rtabmap_odom:/home/wheeltec/rtabmap_ws/install/rtabmap_util:/home/wheeltec/rtabmap_ws/install/rtabmap_sync:/home/wheeltec/rtabmap_ws/install/rtabmap_rviz_plugins:/home/wheeltec/rtabmap_ws/install/rtabmap_conversions:/home/wheeltec/rtabmap_ws/install/rtabmap_python:/opt/ros/humble:/home/wheeltec/rtabmap_ws/install/rtabmap_msgs:/home/wheeltec/rtabmap_ws/install/rtabmap PYTHONPATH=/home/wheeltec/XiouGai-src/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wheeltec/XiouGai-src/src/build/nav2_voxel_grid -- -j4 -l4
+[40.722s] Invoking command in '/home/wheeltec/XiouGai-src/src/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/wheeltec/XiouGai-src/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wheeltec/XiouGai-src/src/install/nav2_common:/home/wheeltec/rtabmap_ws/install/rtabmap_ros:/home/wheeltec/rtabmap_ws/install/rtabmap_launch:/home/wheeltec/rtabmap_ws/install/rtabmap_examples:/home/wheeltec/rtabmap_ws/install/rtabmap_demos:/home/wheeltec/rtabmap_ws/install/rtabmap_viz:/home/wheeltec/rtabmap_ws/install/rtabmap_slam:/home/wheeltec/rtabmap_ws/install/rtabmap_odom:/home/wheeltec/rtabmap_ws/install/rtabmap_util:/home/wheeltec/rtabmap_ws/install/rtabmap_sync:/home/wheeltec/rtabmap_ws/install/rtabmap_rviz_plugins:/home/wheeltec/rtabmap_ws/install/rtabmap_conversions:/home/wheeltec/rtabmap_ws/install/rtabmap_python:/opt/ros/humble:/home/wheeltec/rtabmap_ws/install/rtabmap_msgs:/home/wheeltec/rtabmap_ws/install/rtabmap PYTHONPATH=/home/wheeltec/XiouGai-src/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wheeltec/XiouGai-src/src/build/nav2_voxel_grid
+[40.745s] -- Install configuration: "Release"
+[40.745s] -- Installing: /home/wheeltec/XiouGai-src/src/install/nav2_voxel_grid/lib/libvoxel_grid.so
+[40.748s] -- Set runtime path of "/home/wheeltec/XiouGai-src/src/install/nav2_voxel_grid/lib/libvoxel_grid.so" to ""
+[40.748s] -- Installing: /home/wheeltec/XiouGai-src/src/install/nav2_voxel_grid/include
+[40.749s] -- Installing: /home/wheeltec/XiouGai-src/src/install/nav2_voxel_grid/include/nav2_voxel_grid
+[40.750s] -- Installing: /home/wheeltec/XiouGai-src/src/install/nav2_voxel_grid/include/nav2_voxel_grid/voxel_grid.hpp
+[40.750s] -- Installing: /home/wheeltec/XiouGai-src/src/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.sh
+[40.751s] -- Installing: /home/wheeltec/XiouGai-src/src/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.dsv
+[40.753s] -- Installing: /home/wheeltec/XiouGai-src/src/install/nav2_voxel_grid/share/ament_index/resource_index/package_run_dependencies/nav2_voxel_grid
+[40.754s] -- Installing: /home/wheeltec/XiouGai-src/src/install/nav2_voxel_grid/share/ament_index/resource_index/parent_prefix_path/nav2_voxel_grid
+[40.754s] -- Installing: /home/wheeltec/XiouGai-src/src/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.sh
+[40.755s] -- Installing: /home/wheeltec/XiouGai-src/src/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.dsv
+[40.756s] -- Installing: /home/wheeltec/XiouGai-src/src/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.sh
+[40.758s] -- Installing: /home/wheeltec/XiouGai-src/src/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.dsv
+[40.758s] -- Installing: /home/wheeltec/XiouGai-src/src/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.bash
+[40.760s] -- Installing: /home/wheeltec/XiouGai-src/src/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.sh
+[40.760s] -- Installing: /home/wheeltec/XiouGai-src/src/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.zsh
+[40.763s] -- Installing: /home/wheeltec/XiouGai-src/src/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.dsv
+[40.763s] -- Installing: /home/wheeltec/XiouGai-src/src/install/nav2_voxel_grid/share/nav2_voxel_grid/package.dsv
+[40.770s] -- Installing: /home/wheeltec/XiouGai-src/src/install/nav2_voxel_grid/share/ament_index/resource_index/packages/nav2_voxel_grid
+[40.770s] -- Installing: /home/wheeltec/XiouGai-src/src/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_dependencies-extras.cmake
+[40.771s] -- Installing: /home/wheeltec/XiouGai-src/src/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_include_directories-extras.cmake
+[40.771s] -- Installing: /home/wheeltec/XiouGai-src/src/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_libraries-extras.cmake
+[40.771s] -- Installing: /home/wheeltec/XiouGai-src/src/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig.cmake
+[40.771s] -- Installing: /home/wheeltec/XiouGai-src/src/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig-version.cmake
+[40.773s] -- Installing: /home/wheeltec/XiouGai-src/src/install/nav2_voxel_grid/share/nav2_voxel_grid/package.xml
+[40.781s] Invoked command in '/home/wheeltec/XiouGai-src/src/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/wheeltec/XiouGai-src/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wheeltec/XiouGai-src/src/install/nav2_common:/home/wheeltec/rtabmap_ws/install/rtabmap_ros:/home/wheeltec/rtabmap_ws/install/rtabmap_launch:/home/wheeltec/rtabmap_ws/install/rtabmap_examples:/home/wheeltec/rtabmap_ws/install/rtabmap_demos:/home/wheeltec/rtabmap_ws/install/rtabmap_viz:/home/wheeltec/rtabmap_ws/install/rtabmap_slam:/home/wheeltec/rtabmap_ws/install/rtabmap_odom:/home/wheeltec/rtabmap_ws/install/rtabmap_util:/home/wheeltec/rtabmap_ws/install/rtabmap_sync:/home/wheeltec/rtabmap_ws/install/rtabmap_rviz_plugins:/home/wheeltec/rtabmap_ws/install/rtabmap_conversions:/home/wheeltec/rtabmap_ws/install/rtabmap_python:/opt/ros/humble:/home/wheeltec/rtabmap_ws/install/rtabmap_msgs:/home/wheeltec/rtabmap_ws/install/rtabmap PYTHONPATH=/home/wheeltec/XiouGai-src/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wheeltec/XiouGai-src/src/build/nav2_voxel_grid

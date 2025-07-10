@@ -1,0 +1,33 @@
+[1.730s] Invoking command in '/home/wheeltec/XiouGai-src/src/robot_keyboard': PYTHONPATH=/home/wheeltec/XiouGai-src/src/build/robot_keyboard/prefix_override:/home/wheeltec/XiouGai-src/src/install/robot_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/robot_keyboard build --build-base /home/wheeltec/XiouGai-src/src/build/robot_keyboard/build install --record /home/wheeltec/XiouGai-src/src/build/robot_keyboard/install.log --install-scripts $base/lib/wheeltec_robot_keyboard --single-version-externally-managed install_data
+[2.301s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.301s]   warnings.warn(
+[2.316s] running egg_info
+[2.318s] creating ../build/robot_keyboard/robot_keyboard.egg-info
+[2.319s] writing ../build/robot_keyboard/robot_keyboard.egg-info/PKG-INFO
+[2.319s] writing dependency_links to ../build/robot_keyboard/robot_keyboard.egg-info/dependency_links.txt
+[2.320s] writing entry points to ../build/robot_keyboard/robot_keyboard.egg-info/entry_points.txt
+[2.322s] writing requirements to ../build/robot_keyboard/robot_keyboard.egg-info/requires.txt
+[2.322s] writing top-level names to ../build/robot_keyboard/robot_keyboard.egg-info/top_level.txt
+[2.325s] writing manifest file '../build/robot_keyboard/robot_keyboard.egg-info/SOURCES.txt'
+[2.326s] reading manifest file '../build/robot_keyboard/robot_keyboard.egg-info/SOURCES.txt'
+[2.328s] writing manifest file '../build/robot_keyboard/robot_keyboard.egg-info/SOURCES.txt'
+[2.329s] running build
+[2.329s] running build_py
+[2.330s] creating /home/wheeltec/XiouGai-src/src/build/robot_keyboard/build
+[2.331s] creating /home/wheeltec/XiouGai-src/src/build/robot_keyboard/build/lib
+[2.331s] creating /home/wheeltec/XiouGai-src/src/build/robot_keyboard/build/lib/robot_keyboard
+[2.332s] copying robot_keyboard/keyboard.py -> /home/wheeltec/XiouGai-src/src/build/robot_keyboard/build/lib/robot_keyboard
+[2.332s] copying robot_keyboard/__init__.py -> /home/wheeltec/XiouGai-src/src/build/robot_keyboard/build/lib/robot_keyboard
+[2.334s] running install
+[2.335s] running install_lib
+[2.336s] creating /home/wheeltec/XiouGai-src/src/install/robot_keyboard/lib/python3.10/site-packages/robot_keyboard
+[2.337s] copying /home/wheeltec/XiouGai-src/src/build/robot_keyboard/build/lib/robot_keyboard/keyboard.py -> /home/wheeltec/XiouGai-src/src/install/robot_keyboard/lib/python3.10/site-packages/robot_keyboard
+[2.339s] copying /home/wheeltec/XiouGai-src/src/build/robot_keyboard/build/lib/robot_keyboard/__init__.py -> /home/wheeltec/XiouGai-src/src/install/robot_keyboard/lib/python3.10/site-packages/robot_keyboard
+[2.339s] byte-compiling /home/wheeltec/XiouGai-src/src/install/robot_keyboard/lib/python3.10/site-packages/robot_keyboard/keyboard.py to keyboard.cpython-310.pyc
+[2.342s] byte-compiling /home/wheeltec/XiouGai-src/src/install/robot_keyboard/lib/python3.10/site-packages/robot_keyboard/__init__.py to __init__.cpython-310.pyc
+[2.343s] running install_data
+[2.344s] creating /home/wheeltec/XiouGai-src/src/install/robot_keyboard/share/ament_index
+[2.345s] creating /home/wheeltec/XiouGai-src/src/install/robot_keyboard/share/ament_index/resource_index
+[2.345s] creating /home/wheeltec/XiouGai-src/src/install/robot_keyboard/share/ament_index/resource_index/packages
+[2.347s] error: can't copy 'resource/robot_keyboard': doesn't exist or not a regular file
+[2.378s] Invoked command in '/home/wheeltec/XiouGai-src/src/robot_keyboard' returned '1': PYTHONPATH=/home/wheeltec/XiouGai-src/src/build/robot_keyboard/prefix_override:/home/wheeltec/XiouGai-src/src/install/robot_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/robot_keyboard build --build-base /home/wheeltec/XiouGai-src/src/build/robot_keyboard/build install --record /home/wheeltec/XiouGai-src/src/build/robot_keyboard/install.log --install-scripts $base/lib/wheeltec_robot_keyboard --single-version-externally-managed install_data

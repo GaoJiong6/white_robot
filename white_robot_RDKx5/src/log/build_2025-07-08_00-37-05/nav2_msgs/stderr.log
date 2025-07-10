@@ -1,0 +1,11 @@
+gmake[2]: *** wait: 没有子进程。 停止。
+gmake[2]: *** 正在等待未完成的任务....
+gmake[2]: *** wait: 没有子进程。 停止。
+gmake[2]: *** [CMakeFiles/nav2_msgs__rosidl_typesupport_c__pyext.dir/build.make:76: CMakeFiles/nav2_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/nav2_msgs/_nav2_msgs_s.ep.rosidl_typesupport_c.c.o] 中断
+gmake[2]: *** [CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c__pyext.dir/build.make:76: CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/nav2_msgs/_nav2_msgs_s.ep.rosidl_typesupport_introspection_c.c.o] 中断
+gmake[1]: *** [CMakeFiles/Makefile2:535: CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c__pyext.dir/all] 中断
+gmake[1]: *** [CMakeFiles/Makefile2:564: CMakeFiles/nav2_msgs__rosidl_typesupport_c__pyext.dir/all] 中断
+gmake[1]: *** wait: 没有子进程。 停止。
+gmake[1]: *** 正在等待未完成的任务....
+gmake[1]: *** wait: 没有子进程。 停止。
+gmake: *** [Makefile:146：all] 错误 2

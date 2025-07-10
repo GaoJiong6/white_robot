@@ -1,0 +1,480 @@
+[0.042s] Invoking command in '/home/wheeltec/XiouGai-src/src/build/astra_camera_msgs': CMAKE_PREFIX_PATH=/home/wheeltec/rtabmap_ws/install/rtabmap_ros:/home/wheeltec/rtabmap_ws/install/rtabmap_launch:/home/wheeltec/rtabmap_ws/install/rtabmap_examples:/home/wheeltec/rtabmap_ws/install/rtabmap_demos:/home/wheeltec/rtabmap_ws/install/rtabmap_viz:/home/wheeltec/rtabmap_ws/install/rtabmap_slam:/home/wheeltec/rtabmap_ws/install/rtabmap_odom:/home/wheeltec/rtabmap_ws/install/rtabmap_util:/home/wheeltec/rtabmap_ws/install/rtabmap_sync:/home/wheeltec/rtabmap_ws/install/rtabmap_rviz_plugins:/home/wheeltec/rtabmap_ws/install/rtabmap_conversions:/home/wheeltec/rtabmap_ws/install/rtabmap_python:/opt/ros/humble:/home/wheeltec/rtabmap_ws/install/rtabmap_msgs:/home/wheeltec/rtabmap_ws/install/rtabmap /usr/bin/cmake /home/wheeltec/XiouGai-src/src/ros2_astra_camera/astra_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/wheeltec/XiouGai-src/src/install/astra_camera_msgs
+[0.270s] -- The C compiler identification is GNU 11.4.0
+[0.442s] -- The CXX compiler identification is GNU 11.4.0
+[0.456s] -- Detecting C compiler ABI info
+[0.658s] -- Detecting C compiler ABI info - done
+[0.665s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.665s] -- Detecting C compile features
+[0.666s] -- Detecting C compile features - done
+[0.670s] -- Detecting CXX compiler ABI info
+[0.909s] -- Detecting CXX compiler ABI info - done
+[0.925s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.926s] -- Detecting CXX compile features
+[0.929s] -- Detecting CXX compile features - done
+[0.945s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.230s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.470s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.481s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.507s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.666s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.814s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.996s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.681s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.613s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.680s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.691s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.776s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.776s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.776s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.776s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.826s] -- Found PythonExtra: .so  
+[5.062s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.167s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.175s] -- Added test 'lint_cmake' to check CMake code style
+[5.183s] -- Added test 'xmllint' to check XML markup files
+[5.192s] -- Configuring done
+[5.319s] -- Generating done
+[5.324s] -- Build files have been written to: /home/wheeltec/XiouGai-src/src/build/astra_camera_msgs
+[5.347s] Invoked command in '/home/wheeltec/XiouGai-src/src/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/home/wheeltec/rtabmap_ws/install/rtabmap_ros:/home/wheeltec/rtabmap_ws/install/rtabmap_launch:/home/wheeltec/rtabmap_ws/install/rtabmap_examples:/home/wheeltec/rtabmap_ws/install/rtabmap_demos:/home/wheeltec/rtabmap_ws/install/rtabmap_viz:/home/wheeltec/rtabmap_ws/install/rtabmap_slam:/home/wheeltec/rtabmap_ws/install/rtabmap_odom:/home/wheeltec/rtabmap_ws/install/rtabmap_util:/home/wheeltec/rtabmap_ws/install/rtabmap_sync:/home/wheeltec/rtabmap_ws/install/rtabmap_rviz_plugins:/home/wheeltec/rtabmap_ws/install/rtabmap_conversions:/home/wheeltec/rtabmap_ws/install/rtabmap_python:/opt/ros/humble:/home/wheeltec/rtabmap_ws/install/rtabmap_msgs:/home/wheeltec/rtabmap_ws/install/rtabmap /usr/bin/cmake /home/wheeltec/XiouGai-src/src/ros2_astra_camera/astra_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/wheeltec/XiouGai-src/src/install/astra_camera_msgs
+[5.348s] Invoking command in '/home/wheeltec/XiouGai-src/src/build/astra_camera_msgs': CMAKE_PREFIX_PATH=/home/wheeltec/rtabmap_ws/install/rtabmap_ros:/home/wheeltec/rtabmap_ws/install/rtabmap_launch:/home/wheeltec/rtabmap_ws/install/rtabmap_examples:/home/wheeltec/rtabmap_ws/install/rtabmap_demos:/home/wheeltec/rtabmap_ws/install/rtabmap_viz:/home/wheeltec/rtabmap_ws/install/rtabmap_slam:/home/wheeltec/rtabmap_ws/install/rtabmap_odom:/home/wheeltec/rtabmap_ws/install/rtabmap_util:/home/wheeltec/rtabmap_ws/install/rtabmap_sync:/home/wheeltec/rtabmap_ws/install/rtabmap_rviz_plugins:/home/wheeltec/rtabmap_ws/install/rtabmap_conversions:/home/wheeltec/rtabmap_ws/install/rtabmap_python:/opt/ros/humble:/home/wheeltec/rtabmap_ws/install/rtabmap_msgs:/home/wheeltec/rtabmap_ws/install/rtabmap /usr/bin/cmake --build /home/wheeltec/XiouGai-src/src/build/astra_camera_msgs -- -j4 -l4
+[5.599s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.308s] [  1%] Built target astra_camera_msgs__cpp
+[7.418s] [  1%] Built target ament_cmake_python_copy_astra_camera_msgs
+[7.498s] [  2%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[9.079s] [  3%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/msg/detail/dds_fastrtps/device_info__type_support.cpp.o[0m
+[9.881s] [  4%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/msg/detail/dds_fastrtps/extrinsics__type_support.cpp.o[0m
+[10.734s] [  5%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/msg/detail/dds_fastrtps/metadata__type_support.cpp.o[0m
+[11.502s] [  6%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_device_info__type_support.cpp.o[0m
+[12.332s] [  7%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_camera_info__type_support.cpp.o[0m
+[13.290s] [  8%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_camera_params__type_support.cpp.o[0m
+[14.180s] [  9%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_int32__type_support.cpp.o[0m
+[14.948s] [ 10%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_string__type_support.cpp.o[0m
+[15.743s] [ 11%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/set_int32__type_support.cpp.o[0m
+[16.618s] [ 12%] [32m[1mLinking CXX shared library libastra_camera_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[16.873s] [ 12%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_cpp
+[16.926s] [ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[18.247s] [ 14%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/msg/detail/device_info__type_support.cpp.o[0m
+[19.010s] [ 15%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/msg/detail/extrinsics__type_support.cpp.o[0m
+[19.794s] [ 16%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/msg/detail/metadata__type_support.cpp.o[0m
+[20.499s] [ 17%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_device_info__type_support.cpp.o[0m
+[21.267s] [ 18%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_camera_info__type_support.cpp.o[0m
+[22.054s] [ 20%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_camera_params__type_support.cpp.o[0m
+[22.844s] [ 21%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_int32__type_support.cpp.o[0m
+[23.569s] [ 22%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_string__type_support.cpp.o[0m
+[24.415s] [ 23%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/set_int32__type_support.cpp.o[0m
+[25.146s] [ 24%] [32m[1mLinking CXX shared library libastra_camera_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[25.422s] [ 24%] Built target astra_camera_msgs__rosidl_typesupport_introspection_cpp
+[25.948s] running egg_info
+[25.952s] creating astra_camera_msgs.egg-info
+[25.952s] writing astra_camera_msgs.egg-info/PKG-INFO
+[25.952s] writing dependency_links to astra_camera_msgs.egg-info/dependency_links.txt
+[25.952s] writing top-level names to astra_camera_msgs.egg-info/top_level.txt
+[25.952s] writing manifest file 'astra_camera_msgs.egg-info/SOURCES.txt'
+[25.956s] reading manifest file 'astra_camera_msgs.egg-info/SOURCES.txt'
+[25.957s] writing manifest file 'astra_camera_msgs.egg-info/SOURCES.txt'
+[26.038s] [ 24%] Built target ament_cmake_python_build_astra_camera_msgs_egg
+[26.105s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[26.939s] [ 26%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/msg/device_info__type_support.cpp.o[0m
+[27.545s] [ 27%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/msg/metadata__type_support.cpp.o[0m
+[28.164s] [ 28%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_device_info__type_support.cpp.o[0m
+[28.762s] [ 29%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_camera_info__type_support.cpp.o[0m
+[29.354s] [ 30%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_camera_params__type_support.cpp.o[0m
+[29.929s] [ 31%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_int32__type_support.cpp.o[0m
+[30.471s] [ 32%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_string__type_support.cpp.o[0m
+[31.081s] [ 33%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/set_int32__type_support.cpp.o[0m
+[31.667s] [ 34%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/msg/extrinsics__type_support.cpp.o[0m
+[32.362s] [ 35%] [32m[1mLinking CXX shared library libastra_camera_msgs__rosidl_typesupport_cpp.so[0m
+[32.606s] [ 35%] Built target astra_camera_msgs__rosidl_typesupport_cpp
+[32.675s] [ 36%] [34m[1mGenerating C code for ROS interfaces[0m
+[34.905s] [ 37%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/msg/detail/device_info__functions.c.o[0m
+[35.048s] [ 38%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_device_info__functions.c.o[0m
+[35.197s] [ 40%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_camera_info__functions.c.o[0m
+[35.352s] [ 41%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_camera_params__functions.c.o[0m
+[35.519s] [ 42%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_int32__functions.c.o[0m
+[35.698s] [ 43%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_string__functions.c.o[0m
+[35.887s] [ 44%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/set_int32__functions.c.o[0m
+[36.051s] [ 45%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/msg/detail/metadata__functions.c.o[0m
+[36.205s] [ 46%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/msg/detail/extrinsics__functions.c.o[0m
+[36.475s] [ 47%] [32m[1mLinking C shared library libastra_camera_msgs__rosidl_generator_c.so[0m
+[36.755s] [ 47%] Built target astra_camera_msgs__rosidl_generator_c
+[36.820s] [ 48%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[38.241s] [ 49%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/msg/detail/device_info__type_support_c.cpp.o[0m
+[39.142s] [ 50%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/msg/detail/extrinsics__type_support_c.cpp.o[0m
+[40.084s] [ 51%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/msg/detail/metadata__type_support_c.cpp.o[0m
+[40.893s] [ 52%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/get_device_info__type_support_c.cpp.o[0m
+[42.004s] [ 53%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/get_camera_info__type_support_c.cpp.o[0m
+[43.002s] [ 54%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/get_camera_params__type_support_c.cpp.o[0m
+[43.878s] [ 55%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/get_int32__type_support_c.cpp.o[0m
+[44.737s] [ 56%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/get_string__type_support_c.cpp.o[0m
+[45.449s] [ 57%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/set_int32__type_support_c.cpp.o[0m
+[46.339s] [ 58%] [32m[1mLinking CXX shared library libastra_camera_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[46.656s] [ 58%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_c
+[46.705s] [ 60%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[47.842s] [ 61%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/msg/device_info__type_support.cpp.o[0m
+[47.970s] [ 62%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/msg/metadata__type_support.cpp.o[0m
+[48.096s] [ 63%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/srv/get_device_info__type_support.cpp.o[0m
+[48.226s] [ 64%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/srv/get_camera_info__type_support.cpp.o[0m
+[48.365s] [ 65%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/srv/get_camera_params__type_support.cpp.o[0m
+[48.487s] [ 66%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/srv/get_int32__type_support.cpp.o[0m
+[48.614s] [ 67%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/srv/get_string__type_support.cpp.o[0m
+[48.739s] [ 68%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/srv/set_int32__type_support.cpp.o[0m
+[48.891s] [ 69%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/msg/extrinsics__type_support.cpp.o[0m
+[49.022s] [ 70%] [32m[1mLinking CXX shared library libastra_camera_msgs__rosidl_typesupport_c.so[0m
+[49.225s] [ 70%] Built target astra_camera_msgs__rosidl_typesupport_c
+[49.294s] [ 71%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[50.783s] [ 72%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/msg/detail/device_info__type_support.c.o[0m
+[50.944s] [ 73%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/srv/detail/get_device_info__type_support.c.o[0m
+[51.111s] [ 74%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/srv/detail/get_camera_info__type_support.c.o[0m
+[51.289s] [ 75%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/srv/detail/get_camera_params__type_support.c.o[0m
+[51.446s] [ 76%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/srv/detail/get_int32__type_support.c.o[0m
+[51.592s] [ 77%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/srv/detail/get_string__type_support.c.o[0m
+[51.741s] [ 78%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/srv/detail/set_int32__type_support.c.o[0m
+[51.882s] [ 80%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/msg/detail/metadata__type_support.c.o[0m
+[52.038s] [ 81%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/msg/detail/extrinsics__type_support.c.o[0m
+[52.200s] [ 82%] [32m[1mLinking C shared library libastra_camera_msgs__rosidl_typesupport_introspection_c.so[0m
+[52.360s] [ 82%] Built target astra_camera_msgs__rosidl_typesupport_introspection_c
+[52.502s] [ 82%] Built target astra_camera_msgs
+[52.599s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[55.151s] [ 83%] Built target astra_camera_msgs__py
+[55.225s] [ 84%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/msg/_device_info_s.c.o[0m
+[55.502s] [ 85%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/srv/_get_device_info_s.c.o[0m
+[55.788s] [ 86%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/srv/_get_camera_info_s.c.o[0m
+[56.105s] [ 87%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/srv/_get_camera_params_s.c.o[0m
+[56.419s] [ 88%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/srv/_get_int32_s.c.o[0m
+[56.724s] [ 89%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/srv/_get_string_s.c.o[0m
+[57.037s] [ 90%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/srv/_set_int32_s.c.o[0m
+[57.389s] [ 91%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/msg/_metadata_s.c.o[0m
+[57.815s] [ 92%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/msg/_extrinsics_s.c.o[0m
+[58.136s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/astra_camera_msgs/libastra_camera_msgs__rosidl_generator_py.so[0m
+[58.345s] [ 93%] Built target astra_camera_msgs__rosidl_generator_py
+[58.448s] [ 94%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[58.932s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[59.166s] [ 95%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_c__pyext
+[59.285s] [ 96%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[59.824s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[60.053s] [ 97%] Built target astra_camera_msgs__rosidl_typesupport_c__pyext
+[60.159s] [ 98%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[60.722s] [100%] [32m[1mLinking C shared library rosidl_generator_py/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[61.022s] [100%] Built target astra_camera_msgs__rosidl_typesupport_introspection_c__pyext
+[61.094s] Invoked command in '/home/wheeltec/XiouGai-src/src/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/home/wheeltec/rtabmap_ws/install/rtabmap_ros:/home/wheeltec/rtabmap_ws/install/rtabmap_launch:/home/wheeltec/rtabmap_ws/install/rtabmap_examples:/home/wheeltec/rtabmap_ws/install/rtabmap_demos:/home/wheeltec/rtabmap_ws/install/rtabmap_viz:/home/wheeltec/rtabmap_ws/install/rtabmap_slam:/home/wheeltec/rtabmap_ws/install/rtabmap_odom:/home/wheeltec/rtabmap_ws/install/rtabmap_util:/home/wheeltec/rtabmap_ws/install/rtabmap_sync:/home/wheeltec/rtabmap_ws/install/rtabmap_rviz_plugins:/home/wheeltec/rtabmap_ws/install/rtabmap_conversions:/home/wheeltec/rtabmap_ws/install/rtabmap_python:/opt/ros/humble:/home/wheeltec/rtabmap_ws/install/rtabmap_msgs:/home/wheeltec/rtabmap_ws/install/rtabmap /usr/bin/cmake --build /home/wheeltec/XiouGai-src/src/build/astra_camera_msgs -- -j4 -l4
+[63.387s] Invoking command in '/home/wheeltec/XiouGai-src/src/build/astra_camera_msgs': CMAKE_PREFIX_PATH=/home/wheeltec/rtabmap_ws/install/rtabmap_ros:/home/wheeltec/rtabmap_ws/install/rtabmap_launch:/home/wheeltec/rtabmap_ws/install/rtabmap_examples:/home/wheeltec/rtabmap_ws/install/rtabmap_demos:/home/wheeltec/rtabmap_ws/install/rtabmap_viz:/home/wheeltec/rtabmap_ws/install/rtabmap_slam:/home/wheeltec/rtabmap_ws/install/rtabmap_odom:/home/wheeltec/rtabmap_ws/install/rtabmap_util:/home/wheeltec/rtabmap_ws/install/rtabmap_sync:/home/wheeltec/rtabmap_ws/install/rtabmap_rviz_plugins:/home/wheeltec/rtabmap_ws/install/rtabmap_conversions:/home/wheeltec/rtabmap_ws/install/rtabmap_python:/opt/ros/humble:/home/wheeltec/rtabmap_ws/install/rtabmap_msgs:/home/wheeltec/rtabmap_ws/install/rtabmap /usr/bin/cmake --install /home/wheeltec/XiouGai-src/src/build/astra_camera_msgs
+[63.454s] -- Install configuration: ""
+[63.454s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/ament_index/resource_index/rosidl_interfaces/astra_camera_msgs
+[63.455s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs
+[63.456s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg
+[63.456s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/extrinsics.h
+[63.456s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail
+[63.457s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__functions.c
+[63.457s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__type_support.h
+[63.459s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__functions.c
+[63.461s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__type_support.h
+[63.461s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__struct.h
+[63.462s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__struct.h
+[63.462s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__functions.h
+[63.462s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__functions.c
+[63.463s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__functions.h
+[63.464s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__functions.h
+[63.470s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__type_support.h
+[63.471s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__struct.h
+[63.471s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/device_info.h
+[63.471s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/metadata.h
+[63.471s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/rosidl_generator_c__visibility_control.h
+[63.471s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv
+[63.471s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_string.h
+[63.476s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail
+[63.476s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__functions.c
+[63.476s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__type_support.h
+[63.478s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__functions.h
+[63.478s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__functions.c
+[63.479s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__struct.h
+[63.479s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__functions.h
+[63.481s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__functions.c
+[63.481s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__type_support.h
+[63.481s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__struct.h
+[63.482s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__struct.h
+[63.482s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__type_support.h
+[63.486s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__struct.h
+[63.486s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__functions.h
+[63.486s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__type_support.h
+[63.486s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__functions.h
+[63.486s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__functions.c
+[63.487s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__functions.h
+[63.487s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__type_support.h
+[63.490s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__struct.h
+[63.490s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__functions.h
+[63.491s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__functions.c
+[63.491s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__type_support.h
+[63.492s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__struct.h
+[63.495s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__functions.c
+[63.496s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_camera_params.h
+[63.496s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_int32.h
+[63.498s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_camera_info.h
+[63.498s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_device_info.h
+[63.499s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/set_int32.h
+[63.501s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/environment/library_path.sh
+[63.501s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/environment/library_path.dsv
+[63.502s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_generator_c.so
+[63.508s] -- Set runtime path of "/home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_generator_c.so" to ""
+[63.509s] -- Up-to-date: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs
+[63.509s] -- Up-to-date: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg
+[63.509s] -- Up-to-date: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail
+[63.509s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_c.h
+[63.510s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_c.h
+[63.510s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_c.h
+[63.513s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[63.513s] -- Up-to-date: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv
+[63.514s] -- Up-to-date: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail
+[63.514s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_c.h
+[63.514s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_fastrtps_c.h
+[63.514s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_c.h
+[63.515s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_c.h
+[63.519s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_c.h
+[63.519s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_c.h
+[63.519s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_fastrtps_c.so
+[63.522s] -- Set runtime path of "/home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[63.523s] -- Up-to-date: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs
+[63.523s] -- Up-to-date: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg
+[63.523s] -- Up-to-date: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail
+[63.523s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_introspection_c.h
+[63.524s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_c.h
+[63.524s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_c.h
+[63.526s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__type_support.c
+[63.526s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__type_support.c
+[63.526s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__type_support.c
+[63.526s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[63.526s] -- Up-to-date: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv
+[63.527s] -- Up-to-date: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail
+[63.527s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__type_support.c
+[63.527s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_introspection_c.h
+[63.527s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_c.h
+[63.529s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__type_support.c
+[63.529s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_introspection_c.h
+[63.529s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_introspection_c.h
+[63.541s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__type_support.c
+[63.541s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__type_support.c
+[63.541s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__type_support.c
+[63.541s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_introspection_c.h
+[63.541s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__type_support.c
+[63.542s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_introspection_c.h
+[63.547s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_introspection_c.so
+[63.550s] -- Set runtime path of "/home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_introspection_c.so" to ""
+[63.550s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_c.so
+[63.559s] -- Set runtime path of "/home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_c.so" to ""
+[63.560s] -- Up-to-date: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs
+[63.560s] -- Up-to-date: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg
+[63.560s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/extrinsics.hpp
+[63.560s] -- Up-to-date: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail
+[63.560s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__traits.hpp
+[63.561s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__traits.hpp
+[63.561s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__traits.hpp
+[63.561s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__builder.hpp
+[63.561s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__struct.hpp
+[63.562s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__builder.hpp
+[63.563s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__struct.hpp
+[63.563s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__builder.hpp
+[63.564s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__struct.hpp
+[63.565s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/metadata.hpp
+[63.566s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/device_info.hpp
+[63.566s] -- Up-to-date: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv
+[63.567s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_camera_params.hpp
+[63.568s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_camera_info.hpp
+[63.569s] -- Up-to-date: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail
+[63.569s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__traits.hpp
+[63.570s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__struct.hpp
+[63.571s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__struct.hpp
+[63.571s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__builder.hpp
+[63.572s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__builder.hpp
+[63.572s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__struct.hpp
+[63.573s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__traits.hpp
+[63.574s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__traits.hpp
+[63.574s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__traits.hpp
+[63.575s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__struct.hpp
+[63.575s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__traits.hpp
+[63.576s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__builder.hpp
+[63.576s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__builder.hpp
+[63.577s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__builder.hpp
+[63.577s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__traits.hpp
+[63.577s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__struct.hpp
+[63.578s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__builder.hpp
+[63.579s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__struct.hpp
+[63.580s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_device_info.hpp
+[63.582s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_int32.hpp
+[63.582s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_string.hpp
+[63.583s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/set_int32.hpp
+[63.583s] -- Up-to-date: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs
+[63.584s] -- Up-to-date: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg
+[63.584s] -- Up-to-date: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail
+[63.584s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_cpp.hpp
+[63.585s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/dds_fastrtps
+[63.585s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_cpp.hpp
+[63.586s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp
+[63.586s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[63.586s] -- Up-to-date: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv
+[63.587s] -- Up-to-date: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail
+[63.587s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_cpp.hpp
+[63.587s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_fastrtps_cpp.hpp
+[63.588s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_cpp.hpp
+[63.589s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_cpp.hpp
+[63.589s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/dds_fastrtps
+[63.589s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_cpp.hpp
+[63.590s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_cpp.hpp
+[63.592s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_fastrtps_cpp.so
+[63.595s] -- Set runtime path of "/home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[63.595s] -- Up-to-date: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs
+[63.595s] -- Up-to-date: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg
+[63.595s] -- Up-to-date: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail
+[63.595s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__type_support.cpp
+[63.596s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_introspection_cpp.hpp
+[63.596s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_cpp.hpp
+[63.597s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_cpp.hpp
+[63.598s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__type_support.cpp
+[63.598s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__type_support.cpp
+[63.599s] -- Up-to-date: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv
+[63.599s] -- Up-to-date: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail
+[63.599s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__type_support.cpp
+[63.600s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_cpp.hpp
+[63.600s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_introspection_cpp.hpp
+[63.600s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__type_support.cpp
+[63.600s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__type_support.cpp
+[63.601s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_introspection_cpp.hpp
+[63.601s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_introspection_cpp.hpp
+[63.602s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_introspection_cpp.hpp
+[63.602s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__type_support.cpp
+[63.603s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__type_support.cpp
+[63.604s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_introspection_cpp.hpp
+[63.604s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__type_support.cpp
+[63.605s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_introspection_cpp.so
+[63.610s] -- Set runtime path of "/home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[63.610s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_cpp.so
+[63.611s] -- Set runtime path of "/home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_cpp.so" to ""
+[63.611s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/environment/pythonpath.sh
+[63.613s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/environment/pythonpath.dsv
+[63.613s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs-1.0.1-py3.10.egg-info
+[63.613s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs-1.0.1-py3.10.egg-info/SOURCES.txt
+[63.614s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs-1.0.1-py3.10.egg-info/PKG-INFO
+[63.614s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs-1.0.1-py3.10.egg-info/dependency_links.txt
+[63.617s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs-1.0.1-py3.10.egg-info/top_level.txt
+[63.617s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs
+[63.617s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg
+[63.617s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_metadata.py
+[63.617s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_device_info.py
+[63.617s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_device_info_s.c
+[63.617s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_extrinsics.py
+[63.618s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_extrinsics_s.c
+[63.618s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/__init__.py
+[63.618s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_metadata_s.c
+[63.618s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[63.619s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[63.619s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/libastra_camera_msgs__rosidl_generator_py.so
+[63.620s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_c.c
+[63.622s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[63.622s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv
+[63.622s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_set_int32_s.c
+[63.623s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_params.py
+[63.623s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_params_s.c
+[63.624s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_int32.py
+[63.626s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_set_int32.py
+[63.626s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_info_s.c
+[63.627s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_int32_s.c
+[63.627s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_device_info_s.c
+[63.628s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_string.py
+[63.628s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_device_info.py
+[63.629s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/__init__.py
+[63.629s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_string_s.c
+[63.629s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_info.py
+[63.629s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[63.630s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[63.630s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/__init__.py
+[63.734s] Listing '/home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs'...
+[63.734s] Compiling '/home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/__init__.py'...
+[63.735s] Listing '/home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg'...
+[63.735s] Compiling '/home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/__init__.py'...
+[63.735s] Compiling '/home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_device_info.py'...
+[63.735s] Compiling '/home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_extrinsics.py'...
+[63.735s] Compiling '/home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_metadata.py'...
+[63.735s] Listing '/home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv'...
+[63.735s] Compiling '/home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/__init__.py'...
+[63.736s] Compiling '/home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_info.py'...
+[63.736s] Compiling '/home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_params.py'...
+[63.736s] Compiling '/home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_device_info.py'...
+[63.736s] Compiling '/home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_int32.py'...
+[63.736s] Compiling '/home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_string.py'...
+[63.741s] Compiling '/home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_set_int32.py'...
+[63.753s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[63.758s] -- Set runtime path of "/home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[63.765s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[63.775s] -- Set runtime path of "/home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[63.777s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[63.785s] -- Set runtime path of "/home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[63.787s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_generator_py.so
+[63.791s] -- Set runtime path of "/home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_generator_py.so" to ""
+[63.796s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/msg/DeviceInfo.idl
+[63.798s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/msg/Extrinsics.idl
+[63.798s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/msg/Metadata.idl
+[63.798s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo.idl
+[63.798s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo.idl
+[63.800s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams.idl
+[63.802s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32.idl
+[63.804s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString.idl
+[63.804s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32.idl
+[63.806s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/msg/DeviceInfo.msg
+[63.806s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/msg/Extrinsics.msg
+[63.806s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/msg/Metadata.msg
+[63.807s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo.srv
+[63.807s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo_Request.msg
+[63.809s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo_Response.msg
+[63.809s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo.srv
+[63.809s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo_Request.msg
+[63.809s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo_Response.msg
+[63.813s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams.srv
+[63.813s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams_Request.msg
+[63.813s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams_Response.msg
+[63.814s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32.srv
+[63.814s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32_Request.msg
+[63.814s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32_Response.msg
+[63.814s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString.srv
+[63.814s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString_Request.msg
+[63.814s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString_Response.msg
+[63.814s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32.srv
+[63.815s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32_Request.msg
+[63.815s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32_Response.msg
+[63.816s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/ament_index/resource_index/package_run_dependencies/astra_camera_msgs
+[63.816s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/ament_index/resource_index/parent_prefix_path/astra_camera_msgs
+[63.817s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/environment/ament_prefix_path.sh
+[63.819s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/environment/ament_prefix_path.dsv
+[63.819s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/environment/path.sh
+[63.819s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/environment/path.dsv
+[63.819s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.bash
+[63.819s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.sh
+[63.820s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.zsh
+[63.821s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.dsv
+[63.821s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/package.dsv
+[63.821s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/ament_index/resource_index/packages/astra_camera_msgs
+[63.823s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_cExport.cmake
+[63.823s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_cExport-noconfig.cmake
+[63.825s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[63.828s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[63.829s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cExport.cmake
+[63.829s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[63.829s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cExport.cmake
+[63.829s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[63.832s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_cppExport.cmake
+[63.835s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[63.835s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[63.835s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[63.835s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[63.835s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cppExport.cmake
+[63.836s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[63.837s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_pyExport.cmake
+[63.837s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_pyExport-noconfig.cmake
+[63.837s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake-extras.cmake
+[63.840s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[63.840s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[63.841s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[63.841s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[63.842s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[63.842s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[63.846s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgsConfig.cmake
+[63.846s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgsConfig-version.cmake
+[63.847s] -- Installing: /home/wheeltec/XiouGai-src/src/install/astra_camera_msgs/share/astra_camera_msgs/package.xml
+[63.859s] Invoked command in '/home/wheeltec/XiouGai-src/src/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/home/wheeltec/rtabmap_ws/install/rtabmap_ros:/home/wheeltec/rtabmap_ws/install/rtabmap_launch:/home/wheeltec/rtabmap_ws/install/rtabmap_examples:/home/wheeltec/rtabmap_ws/install/rtabmap_demos:/home/wheeltec/rtabmap_ws/install/rtabmap_viz:/home/wheeltec/rtabmap_ws/install/rtabmap_slam:/home/wheeltec/rtabmap_ws/install/rtabmap_odom:/home/wheeltec/rtabmap_ws/install/rtabmap_util:/home/wheeltec/rtabmap_ws/install/rtabmap_sync:/home/wheeltec/rtabmap_ws/install/rtabmap_rviz_plugins:/home/wheeltec/rtabmap_ws/install/rtabmap_conversions:/home/wheeltec/rtabmap_ws/install/rtabmap_python:/opt/ros/humble:/home/wheeltec/rtabmap_ws/install/rtabmap_msgs:/home/wheeltec/rtabmap_ws/install/rtabmap /usr/bin/cmake --install /home/wheeltec/XiouGai-src/src/build/astra_camera_msgs

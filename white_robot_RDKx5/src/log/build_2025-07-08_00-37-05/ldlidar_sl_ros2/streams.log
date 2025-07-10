@@ -1,0 +1,57 @@
+[0.030s] Invoking command in '/home/wheeltec/XiouGai-src/src/build/ldlidar_sl_ros2': CMAKE_PREFIX_PATH=/home/wheeltec/rtabmap_ws/install/rtabmap_ros:/home/wheeltec/rtabmap_ws/install/rtabmap_launch:/home/wheeltec/rtabmap_ws/install/rtabmap_examples:/home/wheeltec/rtabmap_ws/install/rtabmap_demos:/home/wheeltec/rtabmap_ws/install/rtabmap_viz:/home/wheeltec/rtabmap_ws/install/rtabmap_slam:/home/wheeltec/rtabmap_ws/install/rtabmap_odom:/home/wheeltec/rtabmap_ws/install/rtabmap_util:/home/wheeltec/rtabmap_ws/install/rtabmap_sync:/home/wheeltec/rtabmap_ws/install/rtabmap_rviz_plugins:/home/wheeltec/rtabmap_ws/install/rtabmap_conversions:/home/wheeltec/rtabmap_ws/install/rtabmap_python:/opt/ros/humble:/home/wheeltec/rtabmap_ws/install/rtabmap_msgs:/home/wheeltec/rtabmap_ws/install/rtabmap /usr/bin/cmake /home/wheeltec/XiouGai-src/src/wheeltec_lidar_ros2/LDlidar/ldlidar14 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/XiouGai-src/src/install/ldlidar_sl_ros2
+[0.397s] -- The C compiler identification is GNU 11.4.0
+[0.658s] -- The CXX compiler identification is GNU 11.4.0
+[0.696s] -- Detecting C compiler ABI info
+[0.999s] -- Detecting C compiler ABI info - done
+[1.017s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.019s] -- Detecting C compile features
+[1.022s] -- Detecting C compile features - done
+[1.035s] -- Detecting CXX compiler ABI info
+[1.489s] -- Detecting CXX compiler ABI info - done
+[1.499s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.500s] -- Detecting CXX compile features
+[1.504s] -- Detecting CXX compile features - done
+[1.522s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.072s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.464s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[2.647s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.684s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.721s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.766s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.843s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.147s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.159s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.626s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.711s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.857s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.932s] -- Looking for pthread.h
+[4.278s] -- Looking for pthread.h - found
+[4.281s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.642s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.646s] -- Found Threads: TRUE  
+[5.050s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.367s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.739s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.755s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.756s] -- Configured cppcheck include dirs: /home/wheeltec/XiouGai-src/src/wheeltec_lidar_ros2/LDlidar/ldlidar14/include;/home/wheeltec/XiouGai-src/src/wheeltec_lidar_ros2/LDlidar/ldlidar14/include/ldlidar_driver/include
+[5.756s] -- Configured cppcheck exclude dirs and/or files: 
+[5.766s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.766s] -- Configured cpplint exclude dirs and/or files: 
+[5.770s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.778s] -- Added test 'lint_cmake' to check CMake code style
+[5.779s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.795s] -- Added test 'uncrustify' to check C / C++ code style
+[5.797s] -- Configured uncrustify additional arguments: 
+[5.802s] -- Added test 'xmllint' to check XML markup files
+[5.816s] -- Configuring done
+[5.903s] -- Generating done
+[5.914s] -- Build files have been written to: /home/wheeltec/XiouGai-src/src/build/ldlidar_sl_ros2
+[6.251s] Invoked command in '/home/wheeltec/XiouGai-src/src/build/ldlidar_sl_ros2' returned '0': CMAKE_PREFIX_PATH=/home/wheeltec/rtabmap_ws/install/rtabmap_ros:/home/wheeltec/rtabmap_ws/install/rtabmap_launch:/home/wheeltec/rtabmap_ws/install/rtabmap_examples:/home/wheeltec/rtabmap_ws/install/rtabmap_demos:/home/wheeltec/rtabmap_ws/install/rtabmap_viz:/home/wheeltec/rtabmap_ws/install/rtabmap_slam:/home/wheeltec/rtabmap_ws/install/rtabmap_odom:/home/wheeltec/rtabmap_ws/install/rtabmap_util:/home/wheeltec/rtabmap_ws/install/rtabmap_sync:/home/wheeltec/rtabmap_ws/install/rtabmap_rviz_plugins:/home/wheeltec/rtabmap_ws/install/rtabmap_conversions:/home/wheeltec/rtabmap_ws/install/rtabmap_python:/opt/ros/humble:/home/wheeltec/rtabmap_ws/install/rtabmap_msgs:/home/wheeltec/rtabmap_ws/install/rtabmap /usr/bin/cmake /home/wheeltec/XiouGai-src/src/wheeltec_lidar_ros2/LDlidar/ldlidar14 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/XiouGai-src/src/install/ldlidar_sl_ros2
+[6.253s] Invoking command in '/home/wheeltec/XiouGai-src/src/build/ldlidar_sl_ros2': CMAKE_PREFIX_PATH=/home/wheeltec/rtabmap_ws/install/rtabmap_ros:/home/wheeltec/rtabmap_ws/install/rtabmap_launch:/home/wheeltec/rtabmap_ws/install/rtabmap_examples:/home/wheeltec/rtabmap_ws/install/rtabmap_demos:/home/wheeltec/rtabmap_ws/install/rtabmap_viz:/home/wheeltec/rtabmap_ws/install/rtabmap_slam:/home/wheeltec/rtabmap_ws/install/rtabmap_odom:/home/wheeltec/rtabmap_ws/install/rtabmap_util:/home/wheeltec/rtabmap_ws/install/rtabmap_sync:/home/wheeltec/rtabmap_ws/install/rtabmap_rviz_plugins:/home/wheeltec/rtabmap_ws/install/rtabmap_conversions:/home/wheeltec/rtabmap_ws/install/rtabmap_python:/opt/ros/humble:/home/wheeltec/rtabmap_ws/install/rtabmap_msgs:/home/wheeltec/rtabmap_ws/install/rtabmap /usr/bin/cmake --build /home/wheeltec/XiouGai-src/src/build/ldlidar_sl_ros2 -- -j4 -l4
+[6.517s] [ 16%] [32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/src/demo.cpp.o[0m
+[15.001s] [ 33%] [32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/include/ldlidar_driver/slbf.cpp.o[0m
+[16.837s] [ 50%] [32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/include/ldlidar_driver/transform.cpp.o[0m
+[18.151s] [ 66%] [32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/include/ldlidar_driver/lipkg.cpp.o[0m
+[19.702s] [ 83%] [32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/include/ldlidar_driver/cmd_interface_linux.cpp.o[0m
+[20.904s] [100%] [32m[1mLinking CXX executable ldlidar_sl_ros2_node[0m
+[21.393s] [100%] Built target ldlidar_sl_ros2_node

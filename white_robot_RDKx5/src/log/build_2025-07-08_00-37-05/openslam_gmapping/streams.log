@@ -1,0 +1,120 @@
+[0.055s] Invoking command in '/home/wheeltec/XiouGai-src/src/build/openslam_gmapping': CMAKE_PREFIX_PATH=/home/wheeltec/rtabmap_ws/install/rtabmap_ros:/home/wheeltec/rtabmap_ws/install/rtabmap_launch:/home/wheeltec/rtabmap_ws/install/rtabmap_examples:/home/wheeltec/rtabmap_ws/install/rtabmap_demos:/home/wheeltec/rtabmap_ws/install/rtabmap_viz:/home/wheeltec/rtabmap_ws/install/rtabmap_slam:/home/wheeltec/rtabmap_ws/install/rtabmap_odom:/home/wheeltec/rtabmap_ws/install/rtabmap_util:/home/wheeltec/rtabmap_ws/install/rtabmap_sync:/home/wheeltec/rtabmap_ws/install/rtabmap_rviz_plugins:/home/wheeltec/rtabmap_ws/install/rtabmap_conversions:/home/wheeltec/rtabmap_ws/install/rtabmap_python:/opt/ros/humble:/home/wheeltec/rtabmap_ws/install/rtabmap_msgs:/home/wheeltec/rtabmap_ws/install/rtabmap /usr/bin/cmake /home/wheeltec/XiouGai-src/src/wheeltec_robot_slam/openslam_gmapping -DCMAKE_INSTALL_PREFIX=/home/wheeltec/XiouGai-src/src/install/openslam_gmapping
+[0.288s] -- The C compiler identification is GNU 11.4.0
+[0.495s] -- The CXX compiler identification is GNU 11.4.0
+[0.517s] -- Detecting C compiler ABI info
+[0.810s] -- Detecting C compiler ABI info - done
+[0.822s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.822s] -- Detecting C compile features
+[0.822s] -- Detecting C compile features - done
+[0.829s] -- Detecting CXX compiler ABI info
+[1.198s] -- Detecting CXX compiler ABI info - done
+[1.206s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.206s] -- Detecting CXX compile features
+[1.207s] -- Detecting CXX compile features - done
+[1.220s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.854s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.487s] -- Configuring done
+[2.538s] -- Generating done
+[2.543s] -- Build files have been written to: /home/wheeltec/XiouGai-src/src/build/openslam_gmapping
+[2.558s] Invoked command in '/home/wheeltec/XiouGai-src/src/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/wheeltec/rtabmap_ws/install/rtabmap_ros:/home/wheeltec/rtabmap_ws/install/rtabmap_launch:/home/wheeltec/rtabmap_ws/install/rtabmap_examples:/home/wheeltec/rtabmap_ws/install/rtabmap_demos:/home/wheeltec/rtabmap_ws/install/rtabmap_viz:/home/wheeltec/rtabmap_ws/install/rtabmap_slam:/home/wheeltec/rtabmap_ws/install/rtabmap_odom:/home/wheeltec/rtabmap_ws/install/rtabmap_util:/home/wheeltec/rtabmap_ws/install/rtabmap_sync:/home/wheeltec/rtabmap_ws/install/rtabmap_rviz_plugins:/home/wheeltec/rtabmap_ws/install/rtabmap_conversions:/home/wheeltec/rtabmap_ws/install/rtabmap_python:/opt/ros/humble:/home/wheeltec/rtabmap_ws/install/rtabmap_msgs:/home/wheeltec/rtabmap_ws/install/rtabmap /usr/bin/cmake /home/wheeltec/XiouGai-src/src/wheeltec_robot_slam/openslam_gmapping -DCMAKE_INSTALL_PREFIX=/home/wheeltec/XiouGai-src/src/install/openslam_gmapping
+[2.564s] Invoking command in '/home/wheeltec/XiouGai-src/src/build/openslam_gmapping': CMAKE_PREFIX_PATH=/home/wheeltec/rtabmap_ws/install/rtabmap_ros:/home/wheeltec/rtabmap_ws/install/rtabmap_launch:/home/wheeltec/rtabmap_ws/install/rtabmap_examples:/home/wheeltec/rtabmap_ws/install/rtabmap_demos:/home/wheeltec/rtabmap_ws/install/rtabmap_viz:/home/wheeltec/rtabmap_ws/install/rtabmap_slam:/home/wheeltec/rtabmap_ws/install/rtabmap_odom:/home/wheeltec/rtabmap_ws/install/rtabmap_util:/home/wheeltec/rtabmap_ws/install/rtabmap_sync:/home/wheeltec/rtabmap_ws/install/rtabmap_rviz_plugins:/home/wheeltec/rtabmap_ws/install/rtabmap_conversions:/home/wheeltec/rtabmap_ws/install/rtabmap_python:/opt/ros/humble:/home/wheeltec/rtabmap_ws/install/rtabmap_msgs:/home/wheeltec/rtabmap_ws/install/rtabmap /usr/bin/cmake --build /home/wheeltec/XiouGai-src/src/build/openslam_gmapping -- -j4 -l4
+[2.763s] [  4%] [32mBuilding CXX object utils/CMakeFiles/utils.dir/movement.cpp.o[0m
+[3.414s] [  9%] [32mBuilding CXX object utils/CMakeFiles/utils.dir/stat.cpp.o[0m
+[4.055s] [ 13%] [32m[1mLinking CXX static library libutils.a[0m
+[4.184s] [ 13%] Built target utils
+[4.283s] [ 18%] [32mBuilding CXX object sensor/sensor_base/CMakeFiles/sensor_base.dir/sensor.cpp.o[0m
+[4.700s] [ 22%] [32mBuilding CXX object sensor/sensor_base/CMakeFiles/sensor_base.dir/sensorreading.cpp.o[0m
+[5.104s] [ 27%] [32m[1mLinking CXX static library libsensor_base.a[0m
+[5.231s] [ 27%] Built target sensor_base
+[5.317s] [ 31%] [32mBuilding CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangereading.cpp.o[0m
+[6.136s] [ 36%] [32mBuilding CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangesensor.cpp.o[0m
+[6.857s] [ 40%] [32m[1mLinking CXX static library libsensor_range.a[0m
+[6.996s] [ 40%] Built target sensor_range
+[7.106s] [ 45%] [32mBuilding CXX object sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometryreading.cpp.o[0m
+[7.824s] [ 50%] [32mBuilding CXX object sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometrysensor.cpp.o[0m
+[8.279s] [ 54%] [32m[1mLinking CXX static library libsensor_odometry.a[0m
+[8.419s] [ 54%] Built target sensor_odometry
+[8.556s] [ 59%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/eig3.cpp.o[0m
+[8.936s] [ 63%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/smmap.cpp.o[0m
+[9.551s] [ 68%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/scanmatcherprocessor.cpp.o[0m
+[10.925s] [ 72%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/scanmatcher.cpp.o[0m
+[12.960s] [ 77%] [32m[1mLinking CXX static library libscanmatcher.a[0m
+[13.121s] [ 77%] Built target scanmatcher
+[13.216s] [ 81%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gfsreader.cpp.o[0m
+[14.801s] [ 86%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/motionmodel.cpp.o[0m
+[15.433s] [ 90%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gridslamprocessor_tree.cpp.o[0m
+[17.041s] [ 95%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gridslamprocessor.cpp.o[0m
+[19.336s] [100%] [32m[1mLinking CXX static library libgridfastslam.a[0m
+[19.509s] [100%] Built target gridfastslam
+[19.570s] Invoked command in '/home/wheeltec/XiouGai-src/src/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/wheeltec/rtabmap_ws/install/rtabmap_ros:/home/wheeltec/rtabmap_ws/install/rtabmap_launch:/home/wheeltec/rtabmap_ws/install/rtabmap_examples:/home/wheeltec/rtabmap_ws/install/rtabmap_demos:/home/wheeltec/rtabmap_ws/install/rtabmap_viz:/home/wheeltec/rtabmap_ws/install/rtabmap_slam:/home/wheeltec/rtabmap_ws/install/rtabmap_odom:/home/wheeltec/rtabmap_ws/install/rtabmap_util:/home/wheeltec/rtabmap_ws/install/rtabmap_sync:/home/wheeltec/rtabmap_ws/install/rtabmap_rviz_plugins:/home/wheeltec/rtabmap_ws/install/rtabmap_conversions:/home/wheeltec/rtabmap_ws/install/rtabmap_python:/opt/ros/humble:/home/wheeltec/rtabmap_ws/install/rtabmap_msgs:/home/wheeltec/rtabmap_ws/install/rtabmap /usr/bin/cmake --build /home/wheeltec/XiouGai-src/src/build/openslam_gmapping -- -j4 -l4
+[19.779s] Invoking command in '/home/wheeltec/XiouGai-src/src/build/openslam_gmapping': CMAKE_PREFIX_PATH=/home/wheeltec/rtabmap_ws/install/rtabmap_ros:/home/wheeltec/rtabmap_ws/install/rtabmap_launch:/home/wheeltec/rtabmap_ws/install/rtabmap_examples:/home/wheeltec/rtabmap_ws/install/rtabmap_demos:/home/wheeltec/rtabmap_ws/install/rtabmap_viz:/home/wheeltec/rtabmap_ws/install/rtabmap_slam:/home/wheeltec/rtabmap_ws/install/rtabmap_odom:/home/wheeltec/rtabmap_ws/install/rtabmap_util:/home/wheeltec/rtabmap_ws/install/rtabmap_sync:/home/wheeltec/rtabmap_ws/install/rtabmap_rviz_plugins:/home/wheeltec/rtabmap_ws/install/rtabmap_conversions:/home/wheeltec/rtabmap_ws/install/rtabmap_python:/opt/ros/humble:/home/wheeltec/rtabmap_ws/install/rtabmap_msgs:/home/wheeltec/rtabmap_ws/install/rtabmap /usr/bin/cmake --install /home/wheeltec/XiouGai-src/src/build/openslam_gmapping
+[19.806s] -- Install configuration: ""
+[19.807s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[19.808s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[19.810s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/include/
+[19.812s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/include//gmapping
+[19.814s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/include//gmapping/scanmatcher
+[19.814s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/include//gmapping/scanmatcher/scanmatcher.h
+[19.815s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/include//gmapping/scanmatcher/icp.h
+[19.816s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/include//gmapping/scanmatcher/smmap.h
+[19.817s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/include//gmapping/gridfastslam
+[19.818s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.hxx
+[19.818s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/include//gmapping/gridfastslam/motionmodel.h
+[19.819s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.h
+[19.820s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/include//gmapping/utils
+[19.822s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/include//gmapping/utils/macro_params.h
+[19.822s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/include//gmapping/utils/stat.h
+[19.824s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/include//gmapping/utils/gvalues.h
+[19.824s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/include//gmapping/utils/autoptr.h
+[19.825s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/include//gmapping/utils/commandline.h
+[19.826s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/include//gmapping/utils/point.h
+[19.828s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/include//gmapping/sensor
+[19.828s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/include//gmapping/sensor/sensor_range
+[19.829s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangereading.h
+[19.830s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangesensor.h
+[19.831s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/include//gmapping/sensor/sensor_base
+[19.832s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensorreading.h
+[19.833s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensor.h
+[19.834s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry
+[19.839s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometrysensor.h
+[19.839s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometryreading.h
+[19.839s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/include//gmapping/particlefilter
+[19.839s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/include//gmapping/particlefilter/particlefilter.h
+[19.839s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/include//gmapping/log
+[19.840s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/include//gmapping/log/configuration.h
+[19.840s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/include//gmapping/log/sensorlog.h
+[19.840s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/include//gmapping/grid
+[19.840s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/include//gmapping/grid/accessstate.h
+[19.840s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/include//gmapping/grid/map.h
+[19.844s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/include//gmapping/grid/harray2d.h
+[19.844s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/include//gmapping/grid/array2d.h
+[19.844s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/share/ament_index/resource_index/package_run_dependencies/openslam_gmapping
+[19.845s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/share/ament_index/resource_index/parent_prefix_path/openslam_gmapping
+[19.846s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.sh
+[19.847s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.dsv
+[19.848s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/share/openslam_gmapping/environment/path.sh
+[19.850s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/share/openslam_gmapping/environment/path.dsv
+[19.850s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/share/openslam_gmapping/local_setup.bash
+[19.852s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/share/openslam_gmapping/local_setup.sh
+[19.853s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/share/openslam_gmapping/local_setup.zsh
+[19.854s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/share/openslam_gmapping/local_setup.dsv
+[19.855s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/share/openslam_gmapping/package.dsv
+[19.855s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/share/ament_index/resource_index/packages/openslam_gmapping
+[19.856s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_libraries-extras.cmake
+[19.857s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.858s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig.cmake
+[19.860s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig-version.cmake
+[19.862s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/share/openslam_gmapping/package.xml
+[19.863s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/lib/libgridfastslam.a
+[19.866s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/lib/libscanmatcher.a
+[19.867s] -- Up-to-date: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[19.867s] -- Up-to-date: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[19.868s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/lib/libsensor_base.a
+[19.870s] -- Up-to-date: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[19.871s] -- Up-to-date: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[19.871s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/lib/libsensor_odometry.a
+[19.874s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/lib/libsensor_range.a
+[19.875s] -- Installing: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/lib/libutils.a
+[19.875s] -- Up-to-date: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[19.875s] -- Up-to-date: /home/wheeltec/XiouGai-src/src/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[19.882s] Invoked command in '/home/wheeltec/XiouGai-src/src/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/wheeltec/rtabmap_ws/install/rtabmap_ros:/home/wheeltec/rtabmap_ws/install/rtabmap_launch:/home/wheeltec/rtabmap_ws/install/rtabmap_examples:/home/wheeltec/rtabmap_ws/install/rtabmap_demos:/home/wheeltec/rtabmap_ws/install/rtabmap_viz:/home/wheeltec/rtabmap_ws/install/rtabmap_slam:/home/wheeltec/rtabmap_ws/install/rtabmap_odom:/home/wheeltec/rtabmap_ws/install/rtabmap_util:/home/wheeltec/rtabmap_ws/install/rtabmap_sync:/home/wheeltec/rtabmap_ws/install/rtabmap_rviz_plugins:/home/wheeltec/rtabmap_ws/install/rtabmap_conversions:/home/wheeltec/rtabmap_ws/install/rtabmap_python:/opt/ros/humble:/home/wheeltec/rtabmap_ws/install/rtabmap_msgs:/home/wheeltec/rtabmap_ws/install/rtabmap /usr/bin/cmake --install /home/wheeltec/XiouGai-src/src/build/openslam_gmapping

@@ -1,0 +1,71 @@
+[0.103s] Invoking command in '/home/wheeltec/XiouGai-src/src/build/serial': CMAKE_PREFIX_PATH=/home/wheeltec/rtabmap_ws/install/rtabmap_ros:/home/wheeltec/rtabmap_ws/install/rtabmap_launch:/home/wheeltec/rtabmap_ws/install/rtabmap_examples:/home/wheeltec/rtabmap_ws/install/rtabmap_demos:/home/wheeltec/rtabmap_ws/install/rtabmap_viz:/home/wheeltec/rtabmap_ws/install/rtabmap_slam:/home/wheeltec/rtabmap_ws/install/rtabmap_odom:/home/wheeltec/rtabmap_ws/install/rtabmap_util:/home/wheeltec/rtabmap_ws/install/rtabmap_sync:/home/wheeltec/rtabmap_ws/install/rtabmap_rviz_plugins:/home/wheeltec/rtabmap_ws/install/rtabmap_conversions:/home/wheeltec/rtabmap_ws/install/rtabmap_python:/opt/ros/humble:/home/wheeltec/rtabmap_ws/install/rtabmap_msgs:/home/wheeltec/rtabmap_ws/install/rtabmap /usr/bin/cmake /home/wheeltec/XiouGai-src/src/depend/serial_ros2 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/XiouGai-src/src/install/serial
+[0.419s] -- The C compiler identification is GNU 11.4.0
+[0.757s] -- The CXX compiler identification is GNU 11.4.0
+[0.806s] -- Detecting C compiler ABI info
+[1.161s] -- Detecting C compiler ABI info - done
+[1.173s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.173s] -- Detecting C compile features
+[1.173s] -- Detecting C compile features - done
+[1.176s] -- Detecting CXX compiler ABI info
+[1.541s] -- Detecting CXX compiler ABI info - done
+[1.553s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.553s] -- Detecting CXX compile features
+[1.553s] -- Detecting CXX compile features - done
+[1.578s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.587s] -- Found ament_cmake_core: 1.3.9 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[1.931s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.079s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.130s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.491s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.763s] -- Configuring done
+[2.783s] -- Generating done
+[2.785s] -- Build files have been written to: /home/wheeltec/XiouGai-src/src/build/serial
+[2.807s] Invoked command in '/home/wheeltec/XiouGai-src/src/build/serial' returned '0': CMAKE_PREFIX_PATH=/home/wheeltec/rtabmap_ws/install/rtabmap_ros:/home/wheeltec/rtabmap_ws/install/rtabmap_launch:/home/wheeltec/rtabmap_ws/install/rtabmap_examples:/home/wheeltec/rtabmap_ws/install/rtabmap_demos:/home/wheeltec/rtabmap_ws/install/rtabmap_viz:/home/wheeltec/rtabmap_ws/install/rtabmap_slam:/home/wheeltec/rtabmap_ws/install/rtabmap_odom:/home/wheeltec/rtabmap_ws/install/rtabmap_util:/home/wheeltec/rtabmap_ws/install/rtabmap_sync:/home/wheeltec/rtabmap_ws/install/rtabmap_rviz_plugins:/home/wheeltec/rtabmap_ws/install/rtabmap_conversions:/home/wheeltec/rtabmap_ws/install/rtabmap_python:/opt/ros/humble:/home/wheeltec/rtabmap_ws/install/rtabmap_msgs:/home/wheeltec/rtabmap_ws/install/rtabmap /usr/bin/cmake /home/wheeltec/XiouGai-src/src/depend/serial_ros2 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/XiouGai-src/src/install/serial
+[2.812s] Invoking command in '/home/wheeltec/XiouGai-src/src/build/serial': CMAKE_PREFIX_PATH=/home/wheeltec/rtabmap_ws/install/rtabmap_ros:/home/wheeltec/rtabmap_ws/install/rtabmap_launch:/home/wheeltec/rtabmap_ws/install/rtabmap_examples:/home/wheeltec/rtabmap_ws/install/rtabmap_demos:/home/wheeltec/rtabmap_ws/install/rtabmap_viz:/home/wheeltec/rtabmap_ws/install/rtabmap_slam:/home/wheeltec/rtabmap_ws/install/rtabmap_odom:/home/wheeltec/rtabmap_ws/install/rtabmap_util:/home/wheeltec/rtabmap_ws/install/rtabmap_sync:/home/wheeltec/rtabmap_ws/install/rtabmap_rviz_plugins:/home/wheeltec/rtabmap_ws/install/rtabmap_conversions:/home/wheeltec/rtabmap_ws/install/rtabmap_python:/opt/ros/humble:/home/wheeltec/rtabmap_ws/install/rtabmap_msgs:/home/wheeltec/rtabmap_ws/install/rtabmap /usr/bin/cmake --build /home/wheeltec/XiouGai-src/src/build/serial -- -j4 -l4
+[2.982s] [ 25%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[3.020s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[3.025s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[3.789s] [01m[K/home/wheeltec/XiouGai-src/src/depend/serial_ros2/src/impl/list_ports/list_ports_linux.cc:[m[K In function ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> > glob(const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[3.790s] [01m[K/home/wheeltec/XiouGai-src/src/depend/serial_ros2/src/impl/list_ports/list_ports_linux.cc:66:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.792s]    66 |     for(int path_index = 0; [01;35m[Kpath_index < glob_results.gl_pathc[m[K; path_index++)
+[3.798s]       |                             [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.798s] [01m[K/home/wheeltec/XiouGai-src/src/depend/serial_ros2/src/impl/list_ports/list_ports_linux.cc:57:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kglob_retval[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[3.798s]    57 |     int [01;35m[Kglob_retval[m[K = glob(patterns[0].c_str(), 0, NULL, &glob_results);
+[3.798s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[3.806s] [01m[K/home/wheeltec/XiouGai-src/src/depend/serial_ros2/src/impl/list_ports/list_ports_linux.cc:[m[K In function ‘[01m[Kstd::string format(const char*, ...)[m[K’:
+[3.806s] [01m[K/home/wheeltec/XiouGai-src/src/depend/serial_ros2/src/impl/list_ports/list_ports_linux.cc:246:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.806s]   246 |         else if( [01;35m[Kreturn_value >= buffer_size_bytes[m[K )
+[3.806s]       |                  [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[4.360s] [100%] [32m[1mLinking CXX static library libserial.a[0m
+[4.500s] [100%] Built target serial
+[4.535s] Invoked command in '/home/wheeltec/XiouGai-src/src/build/serial' returned '0': CMAKE_PREFIX_PATH=/home/wheeltec/rtabmap_ws/install/rtabmap_ros:/home/wheeltec/rtabmap_ws/install/rtabmap_launch:/home/wheeltec/rtabmap_ws/install/rtabmap_examples:/home/wheeltec/rtabmap_ws/install/rtabmap_demos:/home/wheeltec/rtabmap_ws/install/rtabmap_viz:/home/wheeltec/rtabmap_ws/install/rtabmap_slam:/home/wheeltec/rtabmap_ws/install/rtabmap_odom:/home/wheeltec/rtabmap_ws/install/rtabmap_util:/home/wheeltec/rtabmap_ws/install/rtabmap_sync:/home/wheeltec/rtabmap_ws/install/rtabmap_rviz_plugins:/home/wheeltec/rtabmap_ws/install/rtabmap_conversions:/home/wheeltec/rtabmap_ws/install/rtabmap_python:/opt/ros/humble:/home/wheeltec/rtabmap_ws/install/rtabmap_msgs:/home/wheeltec/rtabmap_ws/install/rtabmap /usr/bin/cmake --build /home/wheeltec/XiouGai-src/src/build/serial -- -j4 -l4
+[4.713s] Invoking command in '/home/wheeltec/XiouGai-src/src/build/serial': CMAKE_PREFIX_PATH=/home/wheeltec/rtabmap_ws/install/rtabmap_ros:/home/wheeltec/rtabmap_ws/install/rtabmap_launch:/home/wheeltec/rtabmap_ws/install/rtabmap_examples:/home/wheeltec/rtabmap_ws/install/rtabmap_demos:/home/wheeltec/rtabmap_ws/install/rtabmap_viz:/home/wheeltec/rtabmap_ws/install/rtabmap_slam:/home/wheeltec/rtabmap_ws/install/rtabmap_odom:/home/wheeltec/rtabmap_ws/install/rtabmap_util:/home/wheeltec/rtabmap_ws/install/rtabmap_sync:/home/wheeltec/rtabmap_ws/install/rtabmap_rviz_plugins:/home/wheeltec/rtabmap_ws/install/rtabmap_conversions:/home/wheeltec/rtabmap_ws/install/rtabmap_python:/opt/ros/humble:/home/wheeltec/rtabmap_ws/install/rtabmap_msgs:/home/wheeltec/rtabmap_ws/install/rtabmap /usr/bin/cmake --install /home/wheeltec/XiouGai-src/src/build/serial
+[4.747s] -- Install configuration: ""
+[4.756s] -- Installing: /home/wheeltec/XiouGai-src/src/install/serial/lib/libserial.a
+[4.760s] -- Installing: /home/wheeltec/XiouGai-src/src/install/serial/share/serial/environment/library_path.sh
+[4.760s] -- Installing: /home/wheeltec/XiouGai-src/src/install/serial/share/serial/environment/library_path.dsv
+[4.760s] -- Installing: /home/wheeltec/XiouGai-src/src/install/serial/include/serial
+[4.760s] -- Installing: /home/wheeltec/XiouGai-src/src/install/serial/include/serial/serial.h
+[4.761s] -- Installing: /home/wheeltec/XiouGai-src/src/install/serial/include/serial/v8stdint.h
+[4.761s] -- Installing: /home/wheeltec/XiouGai-src/src/install/serial/include/serial/impl
+[4.766s] -- Installing: /home/wheeltec/XiouGai-src/src/install/serial/include/serial/impl/win.h
+[4.766s] -- Installing: /home/wheeltec/XiouGai-src/src/install/serial/include/serial/impl/unix.h
+[4.766s] -- Installing: /home/wheeltec/XiouGai-src/src/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[4.766s] -- Installing: /home/wheeltec/XiouGai-src/src/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[4.766s] -- Installing: /home/wheeltec/XiouGai-src/src/install/serial/share/serial/environment/ament_prefix_path.sh
+[4.766s] -- Installing: /home/wheeltec/XiouGai-src/src/install/serial/share/serial/environment/ament_prefix_path.dsv
+[4.766s] -- Installing: /home/wheeltec/XiouGai-src/src/install/serial/share/serial/environment/path.sh
+[4.767s] -- Installing: /home/wheeltec/XiouGai-src/src/install/serial/share/serial/environment/path.dsv
+[4.767s] -- Installing: /home/wheeltec/XiouGai-src/src/install/serial/share/serial/local_setup.bash
+[4.767s] -- Installing: /home/wheeltec/XiouGai-src/src/install/serial/share/serial/local_setup.sh
+[4.767s] -- Installing: /home/wheeltec/XiouGai-src/src/install/serial/share/serial/local_setup.zsh
+[4.767s] -- Installing: /home/wheeltec/XiouGai-src/src/install/serial/share/serial/local_setup.dsv
+[4.767s] -- Installing: /home/wheeltec/XiouGai-src/src/install/serial/share/serial/package.dsv
+[4.767s] -- Installing: /home/wheeltec/XiouGai-src/src/install/serial/share/ament_index/resource_index/packages/serial
+[4.767s] -- Installing: /home/wheeltec/XiouGai-src/src/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.767s] -- Installing: /home/wheeltec/XiouGai-src/src/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[4.768s] -- Installing: /home/wheeltec/XiouGai-src/src/install/serial/share/serial/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.768s] -- Installing: /home/wheeltec/XiouGai-src/src/install/serial/share/serial/cmake/serialConfig.cmake
+[4.768s] -- Installing: /home/wheeltec/XiouGai-src/src/install/serial/share/serial/cmake/serialConfig-version.cmake
+[4.768s] -- Installing: /home/wheeltec/XiouGai-src/src/install/serial/share/serial/package.xml
+[4.776s] Invoked command in '/home/wheeltec/XiouGai-src/src/build/serial' returned '0': CMAKE_PREFIX_PATH=/home/wheeltec/rtabmap_ws/install/rtabmap_ros:/home/wheeltec/rtabmap_ws/install/rtabmap_launch:/home/wheeltec/rtabmap_ws/install/rtabmap_examples:/home/wheeltec/rtabmap_ws/install/rtabmap_demos:/home/wheeltec/rtabmap_ws/install/rtabmap_viz:/home/wheeltec/rtabmap_ws/install/rtabmap_slam:/home/wheeltec/rtabmap_ws/install/rtabmap_odom:/home/wheeltec/rtabmap_ws/install/rtabmap_util:/home/wheeltec/rtabmap_ws/install/rtabmap_sync:/home/wheeltec/rtabmap_ws/install/rtabmap_rviz_plugins:/home/wheeltec/rtabmap_ws/install/rtabmap_conversions:/home/wheeltec/rtabmap_ws/install/rtabmap_python:/opt/ros/humble:/home/wheeltec/rtabmap_ws/install/rtabmap_msgs:/home/wheeltec/rtabmap_ws/install/rtabmap /usr/bin/cmake --install /home/wheeltec/XiouGai-src/src/build/serial
