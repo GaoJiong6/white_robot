@@ -1,0 +1,78 @@
+.\objects\i2c.o: ..\HARDWARE\MPU6050\I2C.c
+.\objects\i2c.o: ..\HARDWARE\MPU6050\I2C.h
+.\objects\i2c.o: ..\BALANCE\system.h
+.\objects\i2c.o: ..\FreeRTOS\include\FreeRTOSConfig.h
+.\objects\i2c.o: ..\SYSTEM\sys\sys.h
+.\objects\i2c.o: ..\USER\stm32f4xx.h
+.\objects\i2c.o: ..\CORE\core_cm4.h
+.\objects\i2c.o: D:\keil 5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\i2c.o: ..\CORE\core_cmInstr.h
+.\objects\i2c.o: ..\CORE\core_cmFunc.h
+.\objects\i2c.o: ..\CORE\core_cm4_simd.h
+.\objects\i2c.o: ..\USER\system_stm32f4xx.h
+.\objects\i2c.o: ..\CORE\arm_math.h
+.\objects\i2c.o: ..\CORE\core_cm4.h
+.\objects\i2c.o: D:\keil 5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\i2c.o: D:\keil 5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\i2c.o: ..\USER\stm32f4xx_conf.h
+.\objects\i2c.o: ..\FWLIB\inc\stm32f4xx_adc.h
+.\objects\i2c.o: ..\USER\stm32f4xx.h
+.\objects\i2c.o: ..\FWLIB\inc\stm32f4xx_crc.h
+.\objects\i2c.o: ..\FWLIB\inc\stm32f4xx_dbgmcu.h
+.\objects\i2c.o: ..\FWLIB\inc\stm32f4xx_dma.h
+.\objects\i2c.o: ..\FWLIB\inc\stm32f4xx_exti.h
+.\objects\i2c.o: ..\FWLIB\inc\stm32f4xx_flash.h
+.\objects\i2c.o: ..\FWLIB\inc\stm32f4xx_gpio.h
+.\objects\i2c.o: ..\FWLIB\inc\stm32f4xx_i2c.h
+.\objects\i2c.o: ..\FWLIB\inc\stm32f4xx_iwdg.h
+.\objects\i2c.o: ..\FWLIB\inc\stm32f4xx_pwr.h
+.\objects\i2c.o: ..\FWLIB\inc\stm32f4xx_rcc.h
+.\objects\i2c.o: ..\FWLIB\inc\stm32f4xx_rtc.h
+.\objects\i2c.o: ..\FWLIB\inc\stm32f4xx_sdio.h
+.\objects\i2c.o: ..\FWLIB\inc\stm32f4xx_spi.h
+.\objects\i2c.o: ..\FWLIB\inc\stm32f4xx_syscfg.h
+.\objects\i2c.o: ..\FWLIB\inc\stm32f4xx_tim.h
+.\objects\i2c.o: ..\FWLIB\inc\stm32f4xx_usart.h
+.\objects\i2c.o: ..\FWLIB\inc\stm32f4xx_wwdg.h
+.\objects\i2c.o: ..\FWLIB\inc\misc.h
+.\objects\i2c.o: ..\FWLIB\inc\stm32f4xx_cryp.h
+.\objects\i2c.o: ..\FWLIB\inc\stm32f4xx_hash.h
+.\objects\i2c.o: ..\FWLIB\inc\stm32f4xx_rng.h
+.\objects\i2c.o: ..\FWLIB\inc\stm32f4xx_can.h
+.\objects\i2c.o: ..\FWLIB\inc\stm32f4xx_dac.h
+.\objects\i2c.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
+.\objects\i2c.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
+.\objects\i2c.o: ..\SYSTEM\usart\usart.h
+.\objects\i2c.o: D:\keil 5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\i2c.o: ..\FreeRTOS\include\FreeRTOS.h
+.\objects\i2c.o: D:\keil 5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\i2c.o: ..\FreeRTOS\include\projdefs.h
+.\objects\i2c.o: ..\FreeRTOS\include\portable.h
+.\objects\i2c.o: ..\FreeRTOS\include\deprecated_definitions.h
+.\objects\i2c.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\objects\i2c.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\objects\i2c.o: ..\FreeRTOS\include\task.h
+.\objects\i2c.o: ..\FreeRTOS\include\list.h
+.\objects\i2c.o: ..\FreeRTOS\include\queue.h
+.\objects\i2c.o: ..\FreeRTOS\include\timers.h
+.\objects\i2c.o: ..\FreeRTOS\include\semphr.h
+.\objects\i2c.o: ..\SYSTEM\delay\delay.h
+.\objects\i2c.o: ..\BALANCE\balance.h
+.\objects\i2c.o: ..\BALANCE\system.h
+.\objects\i2c.o: ..\HARDWARE\led.h
+.\objects\i2c.o: ..\HARDWARE\oled.h
+.\objects\i2c.o: ..\HARDWARE\usartx.h
+.\objects\i2c.o: ..\HARDWARE\adc.h
+.\objects\i2c.o: ..\HARDWARE\can.h
+.\objects\i2c.o: ..\HARDWARE\motor.h
+.\objects\i2c.o: ..\HARDWARE\timer.h
+.\objects\i2c.o: ..\HARDWARE\encoder.h
+.\objects\i2c.o: ..\BALANCE\show.h
+.\objects\i2c.o: ..\HARDWARE\pstwo.h
+.\objects\i2c.o: ..\HARDWARE\key.h
+.\objects\i2c.o: ..\BALANCE\robot_select_init.h
+.\objects\i2c.o: ..\HARDWARE\MPU6050\I2C.h
+.\objects\i2c.o: ..\HARDWARE\MPU6050\MPU6050.h
+.\objects\i2c.o: D:\keil 5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\i2c.o: D:\keil 5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\i2c.o: D:\keil 5\ARM\ARMCC\Bin\..\include\stdbool.h
